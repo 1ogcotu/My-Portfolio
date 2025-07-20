@@ -1,36 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cybersecurity Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1 { color: #2c3e50; }
-        section { margin-bottom: 20px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Cybersecurity Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #0a192f;
+      --accent-color: #64ffda;
+      --text-color: #ccd6f6;
+      --secondary-color: #112240;
+      --font: 'Inter', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--primary-color);
+      color: var(--text-color);
+      font-family: var(--font);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--secondary-color);
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: var(--accent-color);
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background-color: #0f2a48;
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: var(--accent-color);
+      border-bottom: 1px solid #233554;
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #8892b0;
+    }
+  </style>
 </head>
+
 <body>
+  <header>
     <h1>My Cybersecurity Portfolio</h1>
+  </header>
+
+  <main>
     <section id="about">
-        <h2>About Me</h2>
-        <p>BS in Computer Science, aspiring bug bounty hunter and cybersecurity professional. Currently building skills in Web3 security and ethical hacking.</p>
+      <h2>About Me</h2>
+      <p>BS in Computer Science. Aspiring bug bounty hunter & cybersecurity professional. Currently diving into Web3 security, ethical hacking, and red team ops.</p>
     </section>
+
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python (BHP Projects)</li>
-            <li>Burp Suite, OWASP ZAP</li>
-            <li>Kali Linux</li>
-        </ul>
+      <h2>Skills</h2>
+      <ul>
+        <li>Python (BHP Projects, scripting)</li>
+        <li>Burp Suite, OWASP ZAP</li>
+        <li>Kali Linux, Metasploit</li>
+        <li>Nmap, Wireshark</li>
+        <li>Linux & Bash fundamentals</li>
+      </ul>
     </section>
+
     <section id="projects">
-        <h2>Projects</h2>
-        <p>[To be updated with bug bounties and BHP work]</p>
+      <h2>Projects</h2>
+      <p>• Bug Bounty write-ups (coming soon)</p>
+      <p>• BHP Toolkit Build Logs</p>
+      <p>• Vulnerable Web App Lab Testing</p>
     </section>
+
     <section id="certifications">
-        <h2>Certifications</h2>
-        <p>[Sec+ in progress, OSCP planned]</p>
+      <h2>Certifications</h2>
+      <ul>
+        <li>CompTIA Security+ (In Progress)</li>
+        <li>OSCP (Planned)</li>
+        <li>HTB Academy Courses</li>
+      </ul>
     </section>
+  </main>
+
+  <footer>
+    <p>Made with 💻 by 1ogcotu — <a href="https://github.com/1ogcotu" target="_blank" rel="noopener">GitHub</a> </p>
+  </footer>
+
 </body>
-</html>
+</html> 
